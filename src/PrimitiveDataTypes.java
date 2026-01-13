@@ -57,6 +57,7 @@ public class PrimitiveDataTypes {
 
     System.out.println(c1+" "+c2+" "+c3+" "+c4+" "+c5);
 
+    
     }
     
 }
