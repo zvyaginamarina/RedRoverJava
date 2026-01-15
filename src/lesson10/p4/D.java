@@ -3,7 +3,7 @@ package lesson10.p4;
 import lesson10.p1.*;
 import lesson10.p1.p2.*;
 import lesson10.p1.p2.p3.*;
-import static lesson10.p1.p2.*;
+import static lesson10.p1.p2.B.*;
 import lesson10.p4.p5.*;
 
 public class D {
