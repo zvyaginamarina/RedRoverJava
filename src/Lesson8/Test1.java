@@ -2,6 +2,7 @@ package Lesson8;
 
 public class Test1 {
    public final int a;
+   public static int c = 10;
    
    Test1(){
     a = 10;
