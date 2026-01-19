@@ -5,9 +5,6 @@ public class Car {
     String engine;
     static int doors;
 
-Car(){}
-
-
 Car(String color, String engine, int doors){
     this.color = color;
     this.engine = engine;
@@ -22,10 +19,9 @@ class CarTest{
     }
 
     public static void changeColor(Car c1, Car c2){
-        Car c3 = new Car();
-        c3.color = c2.color;
+        String cc = c2.color;
         c2.color = c1.color;
-        c1.color = c3.color;
+        c1.color = cc;
     }
 
 
