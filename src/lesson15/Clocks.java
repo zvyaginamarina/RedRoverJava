@@ -6,7 +6,18 @@ public class Clocks {
         // 
         
         int hour = 0;
-        
+        OUTTER:
+        while (hour<=6){
+            int minute = 0; 
+            do {
+                int second = 0;
+                while (second <60){
+                    System.out.println();
+                }
+                
+            } while (true);
+
+        }
     }
         
 
