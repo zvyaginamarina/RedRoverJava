@@ -14,7 +14,7 @@ public class Clocks {
                 }
                 minute++;
 
-                int second = 0;
+                int second = -1;
                 INNER: while (second < 59) {
                     System.out.println(hour + ":" + minute + ":" + second);
 
