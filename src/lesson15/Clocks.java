@@ -24,7 +24,7 @@ public class Clocks {
                     second++;
                 }
 
-            } while (minute <= 59);
+            } while (minute < 59);
 
             hour++;
 
