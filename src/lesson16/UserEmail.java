@@ -16,7 +16,7 @@ public class UserEmail {
             // System.out.println(i1);
             // System.out.println(c1);
             // }
-            System.out.print(c1);
+            System.out.print(i);
         }
 
     }
