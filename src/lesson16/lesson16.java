@@ -19,6 +19,9 @@ public class lesson16 {
         System.out.println(s1.equals(s2));
         System.out.println(s3.equals(s4));
 
+        String s5 = "bye";
+        System.out.println(s3.equalsIgnoreCase(s5));
+
     }
 
 }
