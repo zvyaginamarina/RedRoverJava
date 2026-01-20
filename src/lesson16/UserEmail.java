@@ -12,7 +12,7 @@ public class UserEmail {
 
             if (c1 == '@') {
                 i1 = i + 1;
-            } else if (c == '.') {
+            } else if (c1 == '.') {
                 i2 = i;
             }
             String s2 = s.substring(i1, i2);
