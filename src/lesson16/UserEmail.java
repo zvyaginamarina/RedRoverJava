@@ -2,6 +2,9 @@ package lesson16;
 
 public class UserEmail {
 
+    char c1;
+    char c2;
+
     public void email(String s) {
         int i1 = s.indexOf('@');
         int i2 = s.indexOf('.');
