@@ -7,8 +7,9 @@ public class UserEmail2 {
     public void email(String s) {
         char c1;
 
-        for (int i = 0; i < s.length(); i++){
-            c1 = 
+        for (int i = 0; i < s.length(); i++) {
+            c1 = s.charAt(i);
+
         }
 
     }
