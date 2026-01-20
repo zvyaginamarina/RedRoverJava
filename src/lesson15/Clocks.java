@@ -12,17 +12,17 @@ public class Clocks {
                 if (hour > 1 && minute % 10 == 0) {
                     break OUTTER;
                 }
+                minute++;
 
                 int second = 0;
                 INNER: while (second < 60) {
                     System.out.println(hour + ":" + minute + ":" + second);
 
-                    // if (second * hour > minute) {
-                    // continue MIDDLE;
-                    // }
+                    if (second * hour > minute) {
+                        continue MIDDLE;
+                    }
                     second++;
                 }
-                minute++;
 
             } while (minute <= 59);
 
