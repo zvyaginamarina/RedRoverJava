@@ -9,9 +9,10 @@ public class UserEmail {
         for (int i = 0; i < s.length(); i++) {
             c1 = s.charAt(i);
             if (c1 == '@') {
-                i1 = s.indexOf(i) + 1;
+                i1 = s.indexOf(i);
                 System.out.println();
                 System.out.println(c1);
+                continue;
             }
 
         }
