@@ -11,7 +11,7 @@ public class Test2 {
             char c2 = s2.charAt(i);
             if (c1 != ',' && c1 != '.' && c1 != ':' && c1 != '!' && c1 == c2) {
                 System.out.println();
-                System.out.println(c1);
+                System.out.print(c1);
                 continue;
             }
             System.out.print(c1);
