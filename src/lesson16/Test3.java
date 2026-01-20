@@ -12,6 +12,10 @@ public class Test3 {
         System.out.println(s4.isEmpty());
         // String s5 = null;
         // System.out.println(s5.isEmpty());
+        String s6 = "    Hello      ";
+        System.out.println(s6.strip() + s1);
+        System.out.println(s6.stripLeading() + s1);
+        System.out.println(s6.stripTrailing() + s1);
     }
 
 }
