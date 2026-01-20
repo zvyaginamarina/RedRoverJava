@@ -25,15 +25,15 @@ public class UserEmail2 {
 
         while (c < s.length() - 1) {
             a = s.indexOf('@', c);
-            System.out.println(a);
+            // System.out.println(a);
             b = s.indexOf('.', a);
-            System.out.println(b);
+            // System.out.println(b);
             c = s.indexOf(';', b);
-            System.out.println(c);
+            // System.out.println(c);
 
             if (c == -1) { // Если это последний email в списке (после него нет ;)
                 c = s.length();
-                System.out.println(c);
+                // System.out.println(c);
             }
 
             System.out.println(s.substring(a + 1, b));
