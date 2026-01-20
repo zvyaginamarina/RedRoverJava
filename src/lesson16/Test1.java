@@ -3,7 +3,7 @@ package lesson16;
 public class Test1 {
 
     public static void main(String[] args) {
-        String s1 = new String("Helle!  ");
+        String s1 = new String("Helle!    ");
 
         int a = s1.length();
         System.out.println(a);
@@ -33,7 +33,7 @@ public class Test1 {
         System.out.println(s3);
 
         String s4 = s1.trim();
-        System.out.println(s4);
+        System.out.println(s4 + s4);
 
     }
 
