@@ -26,6 +26,9 @@ public class Test1 {
         boolean c2 = s1.endsWith("le!");
         System.out.println(c2);
 
+        String s2 = s1.substring(3);
+        System.out.println(s2);
+
     }
 
 }
