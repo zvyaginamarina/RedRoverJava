@@ -10,8 +10,8 @@ public class Test3 {
         System.out.println(s3.isEmpty());
         String s4 = "";
         System.out.println(s4.isEmpty());
-        String s5 = null;
-        System.out.println(s5.isEmpty());
+        // String s5 = null;
+        // System.out.println(s5.isEmpty());
     }
 
 }
