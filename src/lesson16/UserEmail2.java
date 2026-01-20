@@ -41,7 +41,7 @@ public class UserEmail2 {
     }
 
     public static void main(String[] args) {
-        String emails = "ya@yahoo.com; on@mail.ru; ona@gmail.ru";
+        String emails = "ya@my.yahoo.com; on@mail.ru; ona@gmail.ru";
         email(emails);
     }
 
