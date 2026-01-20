@@ -8,7 +8,7 @@ public class Test2 {
         
 
         for (int i = 0; i < s1.length(); i++){
-            char c1;
+            char c1 = s1.
             char c2;
             if () 
         }
