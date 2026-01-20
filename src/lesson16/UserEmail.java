@@ -8,14 +8,10 @@ public class UserEmail {
     public void email(String s) {
         for (int i = 0; i < s.length(); i++) {
             c1 = s.charAt(i);
-            // i1 = s.indexOf(i);
-            System.out.print(c1);
 
-            // if (c1 == '@') {
-            // i1 = s.indexOf(i);
-            // System.out.println(i1);
-            // System.out.println(c1);
-            // }
+            if (c1 == '@') {
+
+            }
             System.out.print(i);
         }
 
