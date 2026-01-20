@@ -7,7 +7,7 @@ public class Clocks {
 
         int hour = 0;
         OUTTER: while (hour <= 6) {
-            int minute = 0;
+            int minute = -1;
             MIDDLE: do {
                 if (hour > 1 && minute % 2 == 0 && minute != 0) {
                     break OUTTER;
