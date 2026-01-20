@@ -8,9 +8,9 @@ public class Test2 {
         
 
         for (int i = 0; i < s1.length(); i++){
-            char c1 = s1.
-            char c2;
-            if () 
+            char c1 = s1.charAt(i);
+            char c2 = s2.charAt(i);
+            if (c1 != ',' && c1!= '.') 
         }
     }
 }
