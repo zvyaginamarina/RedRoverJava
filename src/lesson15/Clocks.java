@@ -4,9 +4,11 @@ public class Clocks {
 
     public static void showTime(){
         int hour = 0;
+        int minute = 0;
+        int second = 0;
         OUTTER:
         while (hour <=6){
-            int minute = 0;
+            
             
             INNER1: 
             do { 
@@ -15,7 +17,7 @@ public class Clocks {
                     break OUTTER;
                 }
 
-            int second = 0;
+            
 
                 INNER2:
                 while (second<=59){
