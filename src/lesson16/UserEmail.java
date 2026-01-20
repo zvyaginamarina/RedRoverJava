@@ -12,7 +12,7 @@ public class UserEmail {
 
     public static void main(String[] args) {
         UserEmail ue = new UserEmail();
-        ue.email()
+        ue.email("ya@yahoo.com");
     }
 
 }
