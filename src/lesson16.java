@@ -11,6 +11,8 @@ public class lesson16 {
 
         System.out.println(s3 == s4);
 
+        System.out.println(s1 == "Hello");
+
     }
 
 }
