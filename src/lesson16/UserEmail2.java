@@ -2,7 +2,7 @@ package lesson16;
 
 public class UserEmail2 {
 
-    String emails = "ya@yahoo.com; on@mail.ru; ona@gmail.ru";
+    final static String emails = "ya@yahoo.com; on@mail.ru; ona@gmail.ru";
 
     public void email(String s) {
         // char c1;
