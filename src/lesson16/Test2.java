@@ -12,6 +12,7 @@ public class Test2 {
             if (c1 != ',' && c1 != '.' && c1 != ':' && c1 != '!' && c1 == c2) {
                 System.out.println();
                 System.out.println(c1);
+                continue;
             }
             System.out.print(c1);
         }
