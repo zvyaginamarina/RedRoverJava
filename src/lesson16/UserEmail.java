@@ -9,7 +9,7 @@ public class UserEmail {
         for (int i = 0; i < s.length(); i++) {
             c1 = s.charAt(i);
             if (c1 == '@') {
-
+                System.out.println();
             }
 
         }
