@@ -12,7 +12,10 @@ public class Clocks {
             do {
                 int second = 0;
                 while (second <60){
-                    System.out.println();
+                    System.out.println(hour+":"+minute+":"+second);
+
+                    if ()
+                    second++;
                 }
                 
             } while (true);
