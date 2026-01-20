@@ -6,10 +6,13 @@ public class UserEmail {
     char c2;
 
     public void email(String s) {
-        int i1 = s.indexOf('@');
-        int i2 = s.indexOf('.');
-        String s1 = s.substring(i1 + 1, i2);
-        System.out.println(s1);
+        for (int i = 0; i < s.length(); i++) {
+            c1 = s.charAt(i);
+            if (c1 == '@') {
+
+            }
+
+        }
 
     }
 
