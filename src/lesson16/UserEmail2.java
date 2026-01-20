@@ -2,9 +2,7 @@ package lesson16;
 
 public class UserEmail2 {
 
-    final static String emails = "ya@yahoo.com; on@mail.ru; ona@gmail.ru";
-
-    public void email(String s) {
+    public static void email(String s) {
         // char c1;
 
         // for (int i = 0; i < s.length(); i++) {
@@ -39,6 +37,7 @@ public class UserEmail2 {
     }
 
     public static void main(String[] args) {
+        String emails = "ya@yahoo.com; on@mail.ru; ona@gmail.ru";
         email(emails);
     }
 
