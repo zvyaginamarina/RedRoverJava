@@ -12,27 +12,31 @@ public class Clocks {
                 if (minute%10 == 0 && hour >1 && minute != 0){
                     minute++;
                     break OUTTER;
-                }                
-            } while (minute<=59);
 
             int second = 0;
+            
             INNER2:
                 while (second<=59){
                     System.out.println(hour+":"+minute+":"+second);
+                    second++;
                                            
                     if(second*hour>minute){
                     continue INNER1;
-                }}
-                second++;
+                }
+            }
+                }                
+            } while (minute<=59);
+
+            
+                
             }
                 hour++;
                     
                 }
-    }
-    
+        
 
     public static void main(String[] args) {
         showTime();
     }
-
 }
+
