@@ -2,12 +2,12 @@ package lesson16;
 
 public class UserEmail {
 
-    char c1;
-    char c2;
-    int i1;
-    int i2;
-
     public void email(String s) {
+        char c1;
+        char c2;
+        int i1;
+        int i2;
+
         for (int i = 0; i < s.length(); i++) {
             c1 = s.charAt(i);
 
