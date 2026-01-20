@@ -14,8 +14,7 @@ public class UserEmail {
             } else if (c1 == '.') {
                 int i2 = i;
                 String s2 = s.substring(i1, i2);
-                System.out.print(s2);
-                System.out.println();
+                System.out.println(s2);
             }
         }
     }
