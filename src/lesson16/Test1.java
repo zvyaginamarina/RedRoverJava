@@ -23,7 +23,7 @@ public class Test1 {
         boolean c1 = s1.startsWith("abc");
         System.out.println(c1);
 
-        boolean c2 = s1.endsWith("le");
+        boolean c2 = s1.endsWith("le!");
         System.out.println(c2);
 
     }
