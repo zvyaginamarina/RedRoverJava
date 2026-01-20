@@ -13,7 +13,7 @@ public class UserEmail {
                 String s2 = s.substring(i + 1);
                 System.out.println(s2);
             }
-            System.out.print(c1);
+            // System.out.print(c1);
         }
 
     }
