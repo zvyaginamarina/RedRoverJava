@@ -33,6 +33,7 @@ public class UserEmail2 {
 
             if (c == -1) { // Если это последний email в списке (после него нет ;)
                 c = s.length();
+                System.out.println(c);
             }
 
             System.out.println(s.substring(a + 1, b));
