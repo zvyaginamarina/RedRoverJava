@@ -8,6 +8,12 @@ public class Test1 {
         int a = s1.length();
         System.out.println(a);
 
+        char c = s1.charAt(0);
+        System.out.println(c);
+
+        int b = s1.indexOf('e');
+        System.out.println(b);
+
     }
 
 }
