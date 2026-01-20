@@ -13,7 +13,7 @@ public class Test2 {
                 System.out.println();
                 System.out.println(c1);
             }
-            System.out.println(c1);
+            System.out.print(c1);
         }
         System.out.println();
     }
