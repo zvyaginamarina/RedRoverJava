@@ -42,6 +42,15 @@ public class Test1 {
         String s6 = s1.replace("lle", "llo");
         System.out.println(s6);
 
+        String s7 = s1.concat(s6);
+        System.out.println(s7);
+
+        String s8 = s1.toLowerCase();
+        System.out.println(s8);
+
+        String s9 = s1.toUpperCase();
+        System.out.println(s9);
+
     }
 
 }
