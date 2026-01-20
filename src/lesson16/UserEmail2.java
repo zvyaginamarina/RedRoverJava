@@ -9,6 +9,15 @@ public class UserEmail2 {
 
         for (int i = 0; i < s.length(); i++) {
             c1 = s.charAt(i);
+            int i1;
+
+            if (c1 == '@') {
+                i1 = i + 1;
+            }
+
+            if (c1 != '@' && c1 != '.' && c1 != ';') {
+
+            }
 
         }
 
