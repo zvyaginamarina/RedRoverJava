@@ -14,7 +14,7 @@ public class Test1 {
         int b = s1.indexOf('e');
         System.out.println(b);
 
-        int b1 = s1.indexOf("ell");
+        int b1 = s1.indexOf("ll");
         System.out.println(b1);
 
     }
