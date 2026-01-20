@@ -9,10 +9,11 @@ public class Clocks {
         OUTTER: while (hour <= 6) {
             int minute = -1;
             MIDDLE: do {
+                minute++;
+
                 if (hour > 1 && minute % 10 == 0 && minute != 0) {
                     break OUTTER;
                 }
-                minute++;
 
                 int second = 0;
                 INNER: while (second < 60) {
