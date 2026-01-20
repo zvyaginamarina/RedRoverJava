@@ -12,8 +12,8 @@ public class UserEmail {
                 i1 = s.indexOf(i);
                 System.out.println();
                 System.out.println(c1);
-                continue;
             }
+            continue;
 
         }
 
