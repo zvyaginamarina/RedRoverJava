@@ -5,7 +5,7 @@ public class UserEmail {
     public void email(String s) {
         int i1 = s.indexOf('@');
         int i2 = s.indexOf('.');
-        String s1 = s.substring(i1, i2);
+        String s1 = s.substring(i1 + 1, i2);
         System.out.println(s1);
 
     }
