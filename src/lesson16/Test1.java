@@ -33,6 +33,7 @@ public class Test1 {
         System.out.println(s3);
 
         String s4 = s1.trim();
+        System.out.println(s1 + s1);
         System.out.println(s4 + s4);
 
     }
