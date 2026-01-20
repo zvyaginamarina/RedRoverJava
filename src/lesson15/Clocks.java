@@ -7,15 +7,17 @@ public class Clocks {
         OUTTER:
         while (hour <=6){
             int minute = 0;
+            
             INNER1: 
             do { 
                 if (minute%10 == 0 && hour >1 && minute != 0){
                     minute++;
                     break OUTTER;
+                }
 
             int second = 0;
-            
-            INNER2:
+
+                INNER2:
                 while (second<=59){
                     System.out.println(hour+":"+minute+":"+second);
                     second++;
@@ -23,16 +25,11 @@ public class Clocks {
                     if(second*hour>minute){
                     continue INNER1;
                 }
-            }
-                }                
-            } while (minute<=59);
-
-            
-                
-            }
-                hour++;
-                    
-                }
+            }         
+            } while (minute<=59);     
+        }
+                hour++;    
+    }
         
 
     public static void main(String[] args) {
