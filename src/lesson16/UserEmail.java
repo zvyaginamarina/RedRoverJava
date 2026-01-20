@@ -20,14 +20,11 @@ public class UserEmail {
                 System.out.println();
                 System.out.print(s2);
             }
-
         }
-
     }
 
     public static void main(String[] args) {
         UserEmail ue = new UserEmail();
         ue.email("ya@yahoo.com; on@mail.ru; ona@gmail.ru");
     }
-
 }
