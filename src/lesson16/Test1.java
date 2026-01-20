@@ -51,6 +51,9 @@ public class Test1 {
         String s9 = s1.toUpperCase();
         System.out.println(s9);
 
+        boolean c3 = s1.contains("!");
+        System.out.println(c3);
+
     }
 
 }
