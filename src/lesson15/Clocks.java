@@ -14,7 +14,9 @@ public class Clocks {
                 while (second <60){
                     System.out.println(hour+":"+minute+":"+second);
 
-                    if ()
+                    if (second*hour > minute){
+                        
+                    }
                     second++;
                 }
                 
