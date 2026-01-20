@@ -9,12 +9,11 @@ public class Clocks {
         OUTTER: while (hour <= 6) {
             int minute = 0;
             MIDDLE: do {
-                int second = 0;
-
                 if (hour > 1 && minute % 10 == 0) {
                     break OUTTER;
                 }
 
+                int second = 0;
                 INNER: while (second < 60) {
                     System.out.println(hour + ":" + minute + ":" + second);
 
