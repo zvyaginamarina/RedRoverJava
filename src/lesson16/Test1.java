@@ -39,6 +39,9 @@ public class Test1 {
         String s5 = s1.replace('e', 'a');
         System.out.println(s5);
 
+        String s6 = s1.replace("lle", "llo");
+        System.out.println(s6);
+
     }
 
 }
