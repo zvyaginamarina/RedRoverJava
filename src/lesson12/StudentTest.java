@@ -26,11 +26,11 @@ public class StudentTest {
                 if (st1.grade == st2.grade){
                     System.out.println("Students are similar");
                 } else {
-            System.out.println("Students are different");
+            System.out.println("Students are not similar, different grade");
             }} else {
-            System.out.println("Students are different");
+            System.out.println("Students are not similar, different course");
         }} else {
-            System.out.println("Students are different");
+            System.out.println("Students are not similar, different name");
         }
     }
 
