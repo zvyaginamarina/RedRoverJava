@@ -36,6 +36,9 @@ public class Test1 {
         System.out.println(s1 + s1);
         System.out.println(s4 + s4);
 
+        String s5 = s1.replace('e', 'a');
+        System.out.println(s5);
+
     }
 
 }
