@@ -22,6 +22,7 @@ public class Test1 {
 
         StringBuilder sb6 = new StringBuilder("Hello World");
         System.out.println(sb6.replace(0, 5, "Hey"));
+        System.out.println(sb6.capacity());
 
     }
 }
