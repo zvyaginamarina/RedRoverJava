@@ -20,6 +20,9 @@ public class Test1 {
         System.out.println(sb5.deleteCharAt(0));
         System.out.println(sb5.reverse());
 
+        StringBuilder sb6 = new StringBuilder("Hello World");
+        System.out.println(sb6.replace(0, 5, "Hey"));
+
     }
 }
 
