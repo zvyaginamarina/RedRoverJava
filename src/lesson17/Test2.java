@@ -8,5 +8,11 @@ public class Test2 {
 
         System.out.println(sb1);
         System.out.println(sb2);
+
+        StringBuilder sb3 = new StringBuilder("123");
+        StringBuilder sb4 = new StringBuilder("123");
+
+        System.out.println(sb3 == sb4);
+        System.out.println(sb3.equals(sb4));
     }
 }
