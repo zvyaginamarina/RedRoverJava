@@ -14,5 +14,9 @@ public class Test2 {
 
         System.out.println(sb3 == sb4);
         System.out.println(sb3.equals(sb4));
+
+        StringBuilder sb5 = sb3;
+
+        System.out.println(sb3.equals(sb5));
     }
 }
