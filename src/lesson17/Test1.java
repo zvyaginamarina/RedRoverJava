@@ -18,6 +18,7 @@ public class Test1 {
         StringBuilder sb5 = new StringBuilder(sb2);
         System.out.println(sb5.delete(2, 5));
         System.out.println(sb5.deleteCharAt(0));
+        System.out.println(sb5.reverse());
 
     }
 }
