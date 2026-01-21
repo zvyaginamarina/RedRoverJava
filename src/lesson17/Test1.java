@@ -7,5 +7,8 @@ public class Test1 {
         StringBuilder sb3 = new StringBuilder(50);
         StringBuilder sb4 = new StringBuilder(sb2);
 
+        System.out.println(sb2.substring(1, 3));
+        System.out.println(sb2.subSequence(1, 3));
+
     }
 }
