@@ -11,6 +11,7 @@ public class Test1 {
         System.out.println(sb2.subSequence(1, 4));
 
         System.out.println(sb2.append("! How are you?"));
+        System.out.println(s2);
 
     }
 }
