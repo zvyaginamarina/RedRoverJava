@@ -1,6 +1,11 @@
 package lesson17;
 
 public class Test1 {
+    public static void main(String[] args) {
+        StringBuilder sb1 = new StringBuilder();
+        StringBuilder sb2 = new StringBuilder("Hello");
+        StringBuilder sb3 = new StringBuilder(50);
+        StringBuilder sb4 = new StringBuilder(sb2);
 
-    StringBu
+    }
 }
