@@ -15,6 +15,9 @@ public class Test1 {
         System.out.println(sb1.append(new Car()));
         System.out.println(sb4.insert(5, "!!!"));
 
+        StringBuilder sb5 = new StringBuilder(sb2);
+        System.out.println(sb5.delete(2, 3));
+
     }
 }
 
