@@ -12,6 +12,10 @@ public class Test1 {
 
         System.out.println(sb2.append("! How are you?"));
         System.out.println(sb2);
+        System.out.println(sb1.append(new Car()));
 
     }
+}
+
+class Car {
 }
